@@ -2,7 +2,7 @@ import React from "react";
 import Appcontext from "./Context";
 
 const Appprovider = ({Children}) => {
-    <Appcontext.Provider value = "anuj">
+    <Appcontext.Provider value={"anuj"}>
         {Children}
     </Appcontext.Provider>
 }
